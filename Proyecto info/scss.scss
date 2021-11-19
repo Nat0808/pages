@@ -1,0 +1,57 @@
+ /*body background*/
+$bgimage: url(https://i.pinimg.com/originals/9e/16/3d/9e163d153a7804ba7ad1f72c48e76fdc.gif);
+$repeat: no-repeat;
+$size: cover;
+
+/*ul*/
+$listtp: none;
+$mrgn: 0;
+$pdng: 7;
+$ovrflow: hidden;
+$bgcolor: rgba(252, 214, 0, 0.479);
+
+/*li*/
+$flat: left;
+
+/*li a*/
+$dsplay: block;
+$clor: white;
+$txtalign: left;
+$pading: 14px 16px;
+$txtdecoration: none;
+
+/*li a hover*/
+$bgimagee: url(https://i.pinimg.com/originals/9e/16/3d/9e163d153a7804ba7ad1f72c48e76fdc.gif);
+$clorr: black;
+
+
+
+ body{
+     background-image: $bgimage;
+     background-repeat: $repeat;
+     background-size: $size;
+    }
+
+    ul {
+        list-style-type: $listtp;
+        margin: $mrgn;
+        padding: $pdng;
+        overflow: $ovrflow;
+        background-color: $bgcolor;
+      }
+      
+     li{
+        float: $flat;
+     }
+
+     li a {
+        display: $dsplay;
+        color: $clor;
+        text-align: $txtalign;
+        padding: $pading;
+        text-decoration: $txtdecoration;
+      }
+    li a:hover{
+     
+    }
+

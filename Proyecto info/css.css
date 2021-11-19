@@ -1,0 +1,74 @@
+body{
+    /*background-image: url(https://i.pinimg.com/originals/9e/16/3d/9e163d153a7804ba7ad1f72c48e76fdc.gif);*/
+    background-image: url(https://mymodernmet.com/wp/wp-content/uploads/2018/11/andrew-studer-landscape-adventure-photography-7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(43, 40, 54);
+}
+
+
+
+p{
+    text-align: center;
+    font-family: "Lucida Console", Monaco, monospace;
+font-size: 25px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #fffdeb;
+font-weight: normal;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: normal;
+text-transform: capitalize;
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+   
+    
+}
+
+img {
+    float: center;
+  }
+  /*Prueba*/
+  body{
+    
+  
+    
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+  }
+  .centrado{font-weight:bold;
+    max-width:100px;
+    height:auto;}

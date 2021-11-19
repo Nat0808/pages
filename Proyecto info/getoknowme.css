@@ -1,0 +1,61 @@
+body{
+    /*background-image: url(https://cdn.britannica.com/q:60/74/114874-050-6E04C88C/North-Face-Mount-Everest-Tibet-Autonomous-Region.jpg);
+    background-image: url(https://mymodernmet.com/wp/wp-content/uploads/2017/05/mountain-photography-1.jpg)*/
+    background-image: url(https://wallpaperstock.net/wallpapers/thumbs1/42684hd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(43, 40, 54);
+  }
+  
+  
+  
+  p{
+      text-align: center;
+     
+  font-size: 25px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #fffdeb;
+  font-weight: normal;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: normal;
+  text-transform: capitalize;
+  }
+  .border{
+    border-radius: 25%;
+    height: 100px;
+    width: 100px;
+    margin-left: 450px;
+  }
+  .boorder{
+    border-radius: 25%;
+    height: 100px;
+    width: 100px;
+    margin-left: 150px;
+  }

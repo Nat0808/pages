@@ -1,0 +1,88 @@
+body{
+    background-image: url(https://wallpaperstock.net/wallpapers/thumbs1/42684hd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(43, 40, 54);
+  }
+  .black{
+   color: rgb(46, 77, 102);
+   text-align: center;
+   font-size: 30px;
+  }
+  p{
+    text-align: center;
+    font-family: "Arial";
+font-size: 16px;
+letter-spacing: 2px;
+word-spacing: 2px;
+
+font-weight: normal;
+
+font-style: normal;
+font-variant: normal;
+text-align: left;
+}
+
+.main{
+    background-color: rgb(172, 184, 206);
+    width: 200px;
+    height: 200px;
+    color: cornsilk;
+}
+.internal{
+    background-color: rgb(234, 217, 240);
+    width: 200px;
+    height: 50px;
+}
+.internaal{
+    background-color: rgb(172, 184, 206);
+}
+img{
+    height: 400px;
+    box-align: inline-block;
+    padding: 5px;
+}
+
+.get{
+  background-color: none;
+
+}
+.general{
+    background-color: white ;
+}
+.yo{
+  margin-left: 500px;
+}
+.agradecimiento{
+  text-align: center;
+  font-size: 16px;
+}
+.eldiv{
+  background-color: white;
+  color: black;
+}
